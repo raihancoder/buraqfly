@@ -60,7 +60,7 @@ img {
     bottom: 8px;
     right: 20px;
     font-size: 17px;
-    background-color: #F37021;
+    background: linear-gradient(180deg, #fd0000 0%, #19b216 100%);
     color: #fff;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -69,13 +69,25 @@ img {
     -o-border-radius: 50%;
     display: none;
     z-index: 999;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.backtotop a:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
 }
 /* --- =========== back to top ========== --- */
 /* ========== banner css start ========== */
 #banner_img{
     margin-top: 90px;
     background: url(../images/banner.png) no-repeat center / cover;
-    padding: 300px 0;
+    padding: 200px 0;
 }
 .banner_text h1{
     color: #fff;
@@ -396,8 +408,8 @@ img {
 }
 .prepare_icon a {
     margin-top: 30px;
-    height: 50px;
     width: 50px;
+    height: 50px;
     line-height: 50px;
     text-align: center;
     font-size: 20px;
@@ -531,31 +543,16 @@ img {
         border: 1px solid #fff;
         margin-top: 10px;
 }
-/* .back a{
-    margin-top: 20px;
-    padding: 8px 14px;
-    background-color: #fff;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    color: #000;
-    font-size: 20px;
-    box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
-} */
 .back ul li{
     display: inline-block;
     padding: 10px 0px 0px 6px;
 }
 .fa-arrow-left {
-    font-size: 25px;
-    height: 40px;
-    width: 40px;
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     color: #353535;
-    line-height: 40px;
     text-align: center;
     background-color: #fff;
     border-radius: 50%;
@@ -574,11 +571,11 @@ img {
 }
 
 .fa-arrow-right {
-    font-size: 25px;
-    height: 40px;
-    width: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     color: #3e3e3e;
-    line-height: 40px;
     text-align: center;
     background-color: #fff;
     border-radius: 50%;
@@ -712,10 +709,10 @@ img {
 }
 
 .footer_icon ul li a {
-    height: 50px;
     width: 50px;
-    text-align: center;
+    height: 50px;
     line-height: 50px;
+    text-align: center;
     font-size: 20px;
     color: #000;
     border: 1px solid #000;
@@ -806,11 +803,10 @@ img {
     padding-bottom: 10px;
 }
 .footer_contact a{
-    margin: 5px 0px 0px 0px;
-    height: 50px;
     width: 50px;
-    text-align: center;
+    height: 50px;
     line-height: 50px;
+    text-align: center;
     font-size: 20px;
     color: #000;
     border: 1px solid #000;

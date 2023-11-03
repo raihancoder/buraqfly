@@ -50,7 +50,7 @@
         margin: 0px 0px !important;
     }
     .discover_text_img strong {
-        font-size: 15px;
+        font-size: 13px;
         padding-left: 6px;
     }
     /* ===== discover responsive end ===== */
@@ -81,10 +81,10 @@
     /* ===== prepare responsive end ===== */
     /* ===== customars responsive end ===== */
     #customars {
-        padding: 50px 0;
+        padding: 10px 0;
     }
     .customars_item {
-        margin: 0px 0px 30px 0px;
+        margin: 0px 0px 10px 0px;
     }
     .customars_say_text h2 {
         font-size: 31px;
@@ -157,7 +157,43 @@
         margin-right: 0px;
     }
     
-        /* ===== navbar responsive end ===== */
+    /* ===== navbar responsive end ===== */
+    /* ===== banner responsive start ===== */
+    #banner_img {
+        padding: 80px 0;
+    }
+    
+    /* ===== banner responsive end ===== */
+        /* ===== customars responsive end ===== */
+        #customars {
+            padding: 10px 0;
+        }
+    
+        .customars_item {
+            margin: 0px 0px 10px 0px;
+        }
+    
+        .customars_say_text h2 {
+            font-size: 31px;
+            line-height: 45px;
+            padding: 20px 0px 0px 0px;
+        }
+    
+        .customars_say_text p {
+            padding: 25px 0px 0px 0px;
+            font-size: 14px;
+            line-height: 21px;
+        }
+    
+        .customars_say_people h3 {
+            padding-top: 0px;
+        }
+    
+        .customars_say_people_img ul li a {
+            margin-left: -19px;
+        }
+    
+        /* ===== customars responsive end ===== */
     /* ===== footer responsive start ===== */
     .footer_img,
     .footer_icon,
