@@ -1,0 +1,266 @@
+@media(max-width:320px){
+    /* ===== navbar responsive start ===== */
+    .navbar_menu ul li{
+        text-align: center;
+    }
+    .navbar_menu ul li a samp i {
+        margin-right: 0px;
+    }
+    /* ===== navbar responsive end ===== */
+    /* ===== banner responsive start ===== */
+    #banner_img {
+        padding: 80px 0;
+    }
+    .banner_text h1{
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .banner_text p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ===== banner responsive end ===== */
+    /* ===== partner responsive start ===== */
+    .partner_text h4 {
+        margin-top: 50px;
+    }
+    /* ===== partner responsive end ===== */
+    /* ===== holiday responsive start ===== */
+    #holiday {
+        padding: 0px 0;
+    }
+    .holiday_text h2 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    /* ===== holiday responsive end ===== */
+    /* ===== discover responsive start ===== */
+    #discover{
+        padding: 50px 0px;
+    }
+    .discover_text h2 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .discover_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .discover_text_img {
+        margin: 0px 0px !important;
+    }
+    .discover_text_img strong {
+        font-size: 15px;
+        padding-left: 6px;
+    }
+    /* ===== discover responsive end ===== */
+    /* ===== solutions responsive start ===== */
+    #solutions {
+        padding: 0px 0px 40px 0px;
+    }
+    .solutions_text h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    /* ===== solutions responsive end ===== */
+    /* ===== prepare responsive start ===== */
+    #prepare_banner {
+        padding: 50px 0;
+    }
+    .prepare_text h2 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .prepare_text p {
+        padding-top: 19px;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 21px;
+         margin-right: 0px;
+    }
+    /* ===== prepare responsive end ===== */
+    /* ===== customars responsive end ===== */
+    #customars {
+        padding: 50px 0;
+    }
+    .customars_item {
+        margin: 0px 0px 30px 0px;
+    }
+    .customars_say_text h2 {
+        font-size: 31px;
+        line-height: 45px;
+        padding: 20px 0px 0px 0px;
+    }
+    .customars_say_text p {
+        padding: 25px 0px 0px 0px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .customars_say_people h3 {
+        padding-top: 0px;
+    }
+    .customars_say_people_img ul li a {
+        margin-left: -19px;
+    }
+    /* ===== customars responsive end ===== */
+    /* ===== trusted responsive start ===== */
+    #trusted{
+        padding-bottom: 0px !important;
+    }
+    .trusted_text h2 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .trusted_text p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .trusted_buttom input {
+        font-size: 12px;
+        line-height: 0px;
+    }
+    .ovarly p {
+        line-height: 49px;
+        font-size: 12px;
+    }
+    /* ===== trusted responsive end ===== */
+    /* ===== footer responsive start ===== */
+    #footer {
+        padding: 40px 0;
+    }
+    .footer_img p {
+        padding: 10px 0px 0px 0px;
+        font-size: 11px;
+        line-height: 25px;
+    }
+    .footer_blog {
+        padding-top: 25px;
+    }
+    .footer_icon{
+        margin-bottom: 20px;
+    }
+    .footer_contact{
+        margin-top: 20px;
+    }
+    .footer_contact h4 {
+        padding-top: 25px;
+    }
+    /* ===== footer responsive end ===== */
+}
+@media(max-width:575px) {
+    /* ===== navbar responsive start ===== */
+    .navbar_menu ul li {
+        text-align: center;
+    }
+
+    .navbar_menu ul li a samp i {
+        margin-right: 0px;
+    }
+    
+        /* ===== navbar responsive end ===== */
+    /* ===== footer responsive start ===== */
+    .footer_img,
+    .footer_icon,
+    .footer_pages{
+        text-align: center;
+    }
+    .footer_pages h3{
+        padding-top: 20px;
+    }
+    .footer_contact h3 {
+        padding-top: 20px;
+        text-align: center;
+    }
+    /* ===== footer responsive end ===== */
+}
+@media(min-width:576px) and (max-width:767px) {
+    /* ===== navbar responsive start ===== */
+    .navbar_menu ul li {
+        text-align: center;
+    }
+
+    .navbar_menu ul li a samp i {
+        margin-right: 0px;
+    }
+
+    /* ===== navbar responsive end ===== */
+    /* ===== banner responsive start ===== */
+    #banner_img {
+        padding: 80px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    /* ===== banner responsive end ===== */
+    /* ===== holiday responsive start ===== */
+    #holiday {
+        padding: 50px 0;
+    }
+    /* ===== holiday responsive end ===== */
+    /* ===== discover responsive start ===== */
+    .discover_text_img strong {
+        font-size: 26px;
+    }
+    /* ===== discover responsive end ===== */
+    /* ===== prepare responsive start ===== */
+    .prepare_text h2 {
+        font-size: 32px;
+    }
+    .prepare_text p {
+        font-weight: 400;
+        margin-right: 0px;
+    }
+    /* ===== prepare responsive end ===== */
+    /* ===== customars responsive start ===== */
+    .customars_item {
+        margin: 0px 0px 40px 0px;
+    }
+    /* ===== customars responsive end ===== */
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    /* ===== navbar responsive start ===== */
+        .navbar_menu ul li {
+            text-align: center;
+        }
+    
+        .navbar_menu ul li a samp i {
+            margin-right: 0px;
+        }
+    
+        /* ===== navbar responsive end ===== */
+        /* ===== banner responsive start ===== */
+        #banner_img {
+            padding: 100px 0;
+        }
+    
+        /* ===== banner responsive end ===== */
+                /* ===== customars responsive start ===== */
+                .customars_item {
+                    margin: 0px 0px 40px 0px;
+                }
+        
+                /* ===== customars responsive end ===== */
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+
+}
+
+@media(min-width:1200px) and (max-width:1399px) {
+
+}
+
+@media(min-width:1400px) and (max-width:1899px) {
+
+    
+}
